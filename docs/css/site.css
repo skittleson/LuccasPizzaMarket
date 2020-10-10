@@ -16,6 +16,10 @@
 }
 .final-footer {
   background-color: #362E02;
+  
+}
+.final-footer a {
+  color: white !important;
 }
 .final-footer h1, .final-footer h2, .final-footer h5 {
 color:  #DBC12A !important;
