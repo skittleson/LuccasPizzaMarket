@@ -1,0 +1,54 @@
+{
+  "site": {
+    "company": "Lucca's Pizza and Market",
+    "description": "",
+    "keywords": "whole market,pizza",
+    "url": "https://luccaspizzamarket.com",
+    "domain": "luccaspizzamarket.com",
+    "title": "Lucca's Pizza and Market",
+    "ga": "UA-",
+    "stripe": "-",
+    "api": "https://api.luccaspizzamarket.com"
+  },
+  "js": [
+    "src/javascript/site.js",
+    "node_modules/jquery/dist/jquery.slim.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+  ],
+  "css": [
+    "src/css/site.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+  ],
+  "partials": [
+    "header.hbs",
+    "footer.hbs",
+    "navbar.hbs",
+    "contactInfo.hbs",
+    "infoFooter.hbs"
+  ],
+  "assets": ["robots.txt", "humans.txt", "images", "sw.js"],
+  "pages": [
+    { "file": "index.hbs" },
+    { "file": "offline.hbs" },
+    {
+      "file": "gallery.hbs",
+      "title": "Shop",
+      "keywords": "pizza,market",
+      "date": "2020-01-01",
+      "description": "Pictures from our customers",
+      "priority": 0.5
+    },
+    {
+      "file": "about.hbs",
+      "title": "About Us",
+      "keywords": "about,about us",
+      "date": "2020-01-01",
+      "description": "Who we are and what we do",
+      "priority": 0.5
+    },
+    { "file": "menu.hbs", "priority": 0.9 },
+    { "file": "privacy.hbs", "priority": 0.1 },
+    { "file": "terms.hbs", "priority": 0.1 }
+  ]
+}
