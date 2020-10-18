@@ -1,17 +1,18 @@
-https://color.adobe.com/create/color-wheel
+# To Do
 
-Triad
-Brown #362E02
-Yellow #DBC12A
-Teal 0C7E82
-Purple 821961
-Dark Teal 0A3436
-
-
-- [] Gallery
+- [] logo
+- [] gmail
 - [] top address bar. social
+- [x] menu
+- [x] domain
+- [x] google GA
 - [x] home page
  - [x] order online. menu. about.
  - [x] no touch
  - [] mail chip emails
- - [] specials
+
+## Pending
+- [] uber eats, yelp, grubhub
+- [] Gallery and patch swap. Waiting for actual photos
+- [] specials
+

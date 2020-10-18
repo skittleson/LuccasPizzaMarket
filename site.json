@@ -1,13 +1,12 @@
 {
   "site": {
-    "company": "Lucca's Pizza and Market",
-    "description": "",
+    "company": "Luccas's Pizza and Market",
+    "description": "Pizzeria and wholefood market",
     "keywords": "wholefood market,pizza,artisan pizza,san diego,trolly,mts trolly",
     "url": "https://luccaspizzamarket.com",
     "domain": "luccaspizzamarket.com",
-    "title": "Lucca's Pizza 🍕 and Market 🌱",
-    "ga": "UA-",
-    "stripe": "-",
+    "title": "Luccas's Pizza 🍕 and Market 🌱",
+    "ga": "UA-180810636-1",
     "api": "https://api.luccaspizzamarket.com"
   },
   "js": [
@@ -33,7 +32,7 @@
     { "file": "offline.hbs" },
     {
       "file": "gallery.hbs",
-      "title": "Shop",
+      "title": "Gallery",
       "keywords": "pizza,market",
       "date": "2020-01-01",
       "description": "Pictures from our customers",
