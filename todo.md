@@ -10,6 +10,7 @@
  - [x] order online. menu. about.
  - [x] no touch
  - [] mail chip emails
+- [] Flyers with QR code
 
 ## Pending
 - [] uber eats, yelp, grubhub
