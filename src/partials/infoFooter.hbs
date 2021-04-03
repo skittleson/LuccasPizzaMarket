@@ -1,9 +1,15 @@
 </br>
-<footer class="container-fluid py-5 final-footer">
+<footer class="container-fluid py-5 final-footer" itemscope itemtype="https://schema.org/Restaurant">
     <div class="row">
         <div class="col-12 col-md">
-            <h1>{{company}}</h1><br />
-            <small class="d-block mb-3 text-muted">&copy; 2020 {{company}}</small>
+            <h5 class="logo-color" itemprop="name"> <img src="/images/logo.png" alt="{{company}} Logo" width="30" /> {{company}}</h5>
+            <div class="d-block mb-3 text-muted" itemprop="address" itemscope
+                itemtype="https://schema.org/PostalAddress">
+                <span itemprop="streetAddress">2195 Station Village Ste A</span>
+                <span itemprop="addressLocality">San Diego</span>,
+                <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">92108 </span>
+            </div>
+            <small class="d-block mb-3 text-muted">&copy; 2021 {{company}}</small>
         </div>
         <div class="col-6 col-md">
             <h5>Resources</h5>
@@ -17,14 +23,37 @@
         </div>
         <div class="col-6 col-md">
             <h5>Contact Us</h5>
-            <ul class="list-unstyled text-small">
-                <li><a href="mailto:hello@{{domain}}">hello@{{domain}}</a></li>
-                <li><a href="/about">Contact us page</a></li>
+            <ul class="list-unstyled text-small" style="color: white;">
+                {{!-- <li><a href="mailto:hello@{{domain}}">hello@{{domain}}</a></li> --}}
+                <li>
+                    Tel: <span itemprop="telephone">{{phone}}</span>
+                </li>
+                <li>
+                    <meta itemprop="openingHours" content="Su-Th 11:00-22:00" /> 🕚 Sunday – Thursday: 11:00 AM – 10:00
+                    PM
+                </li>
+                <li>
+                    <meta itemprop="openingHours" content="Fr-Sa 11:00-23:00" />🕚 Friday – Saturday: 11:00 AM – 11:00
+                    PM
+                </li>
+                <li>🚗 We deliver with DoorDash, GrubHub, and UberEats.</li>
+                <li>🛍️ Outdoor pickup available</li>
+
             </ul>
+
+            Categories:
+            <span itemprop="servesCuisine">
+                Italian Pizza
+            </span>,
+            <span itemprop="servesCuisine">
+                Organic Market
+            </span>
+
+            Price Range: <span itemprop="priceRange">$$</span>
         </div>
         <div class="col-12 col-md">
 
-            <h5>Get 10% off your first order!</h5>
+            {{!-- <h5>Get 10% off your first order!</h5>
             <div class="input-group mb-3">
                 <input type="email" class="form-control" placeholder="youremail@example.com" />
                 <div class="input-group-append">
@@ -33,7 +62,7 @@
             </div>
 
             <p class="lead">Sign up for the {{company}} newsletter for hacks, exclusive deals, new product releases, and
-                much more.</p>
+                much more.</p> --}}
         </div>
     </div>
 </footer>

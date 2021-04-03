@@ -1,6 +1,7 @@
 /* TEAM */
-	Contact: Coffee Hacks Team
+	Contact: Lucca's Pizza Market
 	From: California, United States
+	Location: 2195 Station Village Way #A, San Diego, CA 
 
 /* SITE */
 	Last update: 2020/1/1

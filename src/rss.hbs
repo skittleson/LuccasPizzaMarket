@@ -4,13 +4,5 @@
         <title>{{site.company}}</title>
         <link>{{site.url}}</link>
         <atom:link href="{{site.url}}/rss.xml" rel="self" type="application/rss+xml" />
-        {{#each posts}}
-        <item>
-            <title>{{this.title}}</title>
-            <link>{{../site.url}}/{{blogPath this.file}}</link>
-            <guid>{{../site.url}}/{{blogPath this.file}}</guid>
-            <pubDate>{{this.date}}</pubDate>
-        </item>
-        {{/each}}
     </channel>
 </rss>

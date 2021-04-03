@@ -7,7 +7,8 @@
     "domain": "luccaspizzamarket.com",
     "title": "Lucca's Pizza 🍕 and Market 🌱",
     "ga": "UA-180810636-1",
-    "api": "https://api.luccaspizzamarket.com"
+    "api": "https://api.luccaspizzamarket.com",
+    "phone": "coming soon..."
   },
   "js": [
     "src/javascript/site.js",
@@ -26,7 +27,7 @@
     "contactInfo.hbs",
     "infoFooter.hbs"
   ],
-  "assets": ["robots.txt", "humans.txt", "images", "sw.js"],
+  "assets": ["robots.txt", "humans.txt", "images", "sw.js", "favicon.ico"],
   "pages": [
     { "file": "index.hbs" },
     { "file": "offline.hbs" },
