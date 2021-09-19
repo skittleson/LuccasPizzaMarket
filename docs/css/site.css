@@ -72,9 +72,10 @@ body, p, h1, h2, h3, h4 {
   border-bottom: 1px solid #f9f9f9;
 }
 
-.navbar-brand {
+a.navbar-brand {
   color: #DBC12A !important;
   font-size: 130%;
+  display: contents;
 }
 
 summary>h3 {
