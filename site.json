@@ -32,6 +32,14 @@
     { "file": "index.hbs" },
     { "file": "offline.hbs" },
     {
+      "file": "catering.hbs",
+      "title": "Lucca's Catering",
+      "keywords": "italian food catering,business food catering,wedding food catering,catering,party,luncheon,wedding",
+      "date": "2021-10-01",
+      "description": "Catering services in San Diego, CA.  Our experienced and professional catering services staff will take care of every detail to ensure the best service and food.",
+      "priority": 0.9
+    },
+    {
       "file": "gallery.hbs",
       "title": "Gallery",
       "keywords": "pizza,market",

@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+.print-page-break {
+  page-break-after: always;
+}
+
 .jumbotron {
   background-color: white !important;
 }
