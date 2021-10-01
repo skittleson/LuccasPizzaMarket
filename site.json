@@ -8,7 +8,8 @@
     "title": "Lucca's Pizza 🍕 and Market 🌱",
     "ga": "UA-180810636-1",
     "api": "https://api.luccaspizzamarket.com",
-    "phone": "(619) 684-5125"
+    "phone": "(619) 684-5125",
+    "onlineMenu": "https://www.clover.com/online-ordering/luccas-pizza--market-san-diego"
   },
   "js": [
     "src/javascript/site.js",
